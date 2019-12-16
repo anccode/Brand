@@ -81,22 +81,22 @@ nav li a:hover{
 .main_button:hover{
 	background-color: #5e9e22;
 }
-.description {
-	max-height: 200px;
-	background-size: cover;
-	background-position: center top;
-	padding: 15%;
-	margin-top: -150px;
+
+.description{
+	padding: 10%;
 	display: flex;
 }
 .description_main{
-	padding: 5%;
+	text-align: center;
+	padding: 20px;	
 }
-.line{
-	height: 1px;
-	background-color: #00000029;
+.description_main img{
+	max-height: 100px;
 }
-.mentions {
+.paragraph_desciption{
+	text-align: justify;
+}
+/* .mentions {
 	margin-top: -60px;
 	height: 150px;
 	background-size: cover;
@@ -116,39 +116,33 @@ nav li a:hover{
 .people_content img{
 	display: block;
 	width: 100%;
-}
-.text{
-	padding: 2%;
-}
-.people{
+} */
+.mentions{
 	padding: 5px;
+	display: flex;
 }
-
+.mentions img{
+	width: 100%;
+}
+.people {
+	padding: var(--space);
+}
+.people_content{
+	box-shadow: 0px 3px 6px #00000029;;
+}
 .title{
 	text-align: center;
-	margin-top: 20px;
 }
+.text{
+	padding: var(--space)
+}
+
 footer{
-	height:50px;
-	background-color: #313337;
-	color: white;
-	justify-content: space-between	;
-	align-items: center;
-	
-}	
-footer ul {
 	display: flex;
-	
+	justify-content: space-between;	
+	font-size: var(--normal);
+	background-color: var(--black-color);
+	padding: var(--space);
+	color: var(--white-color);
 }
-footer li{
-	/* height: 50%; */
-	list-style: none;
-	margin-top: 20px;
-}
-#contacto {
-	/* margin-left: 1050px; */
-	margin-left: 20%;
-}
-#tm{
-	margin-right: 58%;
-}
+
